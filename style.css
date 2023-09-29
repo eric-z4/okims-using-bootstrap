@@ -1,16 +1,28 @@
-body {
-  background-color: grey;
-}
-
 .bg-pink {
   background-color: #ef577d;
 }
 
+.bg-offwhite {
+  background-color: #f5f5f5;
+}
+
+.text-pink {
+  color: #ef577d;
+}
+
+.px-12 {
+  padding-left: 12em;
+  padding-right: 12em;
+}
+
 .home-bg-img {
-  width: 100%;
-  max-height: 1000px;
+  background-size: cover;
+  padding-bottom: 800px;
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5e876c37eff3b7463638ad23/1586044934417-1F372B0X493MPDRGJ9X0/IMG_20190903_141224.jpg");
 }
 
 .logo {
+  width: 100%;
+  min-width: 80px;
   max-width: 300px;
 }
